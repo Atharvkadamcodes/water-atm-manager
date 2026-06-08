@@ -210,7 +210,7 @@ export const db = {
         .insert({
           full_name: fullName,
           mobile_number: mobileNumber,
-          status: CUSTOMER_STATUS.INACTIVE
+          status: CUSTOMER_STATUS.ACTIVE
         })
         .select()
         .single();
